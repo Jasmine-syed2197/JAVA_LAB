@@ -1,5 +1,3 @@
-/* 5.program on inner class and static nested class*/
-
 import java.io.*;
 
 class CPU
@@ -21,7 +19,7 @@ class CPU
 		{
 		CPU c= new CPU();
 		CPU.processor p= c.new processor();
-		CPU.RAM r= new CPU.RAM();
+		CPU.RAM r= new CPU.RAM(); 
 
 		System.out.println("price:"+c.price);
 		System.out.println("no of cores & manuf:"+p.noofcores +"  " +p.manuf);
